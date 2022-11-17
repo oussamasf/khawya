@@ -2,7 +2,7 @@ name: Auto commit
 
 on:
   schedule:
-    - cron: "0 7,8,9,10,11,12,14 * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
+    - cron: "0 7,8,9,10,11,12,14,15 * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
 
 permissions: write-all
 
