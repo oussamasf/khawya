@@ -46,4 +46,4 @@ jobs:
         with:
           force: true
           directory: "."
-          github_token: ${{ secrets.GITHUB_SECRET }}
+          github_token: ${{ secrets.COMMIT_TOKEN }}
